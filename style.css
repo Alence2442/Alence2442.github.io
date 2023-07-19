@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+#landing_page {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .logo {
+  padding: 1rem 0;
+}
+
+header .logo img {
+  width: 200px;
+}
+
+header nav {
+  display: flex;
+  gap: 1.2rem;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  background: #0678ff;
+}
+
+header nav .menu {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav .menu a,
+header nav .home-menu {
+  text-align: center;
+  font: normal normal 600 25px/47px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+header nav .menu a.active,
+header nav .home-menu.active {
+  background: #065abc 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 30px 6px #00000029, 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 0 20px;
+}
+
+#landing_page #hero {
+  padding: 1rem 0;
+}
+
+#landing_page #hero .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#landing_page #hero .row div:first-child {
+  width: 40%;
+}
+
+#landing_page #hero .row div:last-child {
+  width: 60%;
+}
+
+#landing_page #hero h1 {
+  text-align: left;
+  font: normal normal bold 100px/124px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+#landing_page #hero h2 {
+  text-align: left;
+  font: normal normal 600 30px/53px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+#landing_page #hero p {
+  text-align: left;
+  font: normal normal 600 16px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #7f7f7f;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+#landing_page #hero a {
+  background: #ff7bac 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 20px/30px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 10px 20px 15px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+#landing_page #hero img {
+  background: transparent url("img/man-2604149_1920.png") 0% 0% no-repeat
+    padding-box;
+  box-shadow: 5px 10px 15px #00000029;
+  border-radius: 96px;
+  opacity: 1;
+}
+
+#landing_page h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero .row {
+  width: 100%;
+  max-width: 400px;
+}
+.hero h1 {
+  text-align: left;
+  font-size: 84px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.hero p {
+  text-align: left;
+  font: normal normal 400 16px/25px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.workout {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/healthy-food-immunity-boosting-composition.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.workout .row {
+  width: 100%;
+  max-width: 400px;
+}
+.workout h1 {
+  text-align: left;
+  font-size: 84px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.workout p {
+  text-align: left;
+  font: normal normal 400 16px/25px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.user {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/Rectangle\ 90.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.user .row {
+  width: 100%;
+  max-width: 400px;
+}
+.user h1 {
+  text-align: left;
+  font-size: 84px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.user p {
+  text-align: left;
+  font: normal normal 400 16px/25px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.discussion a {
+  background: #ff7bac 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 20px/30px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 10px 20px 15px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+#interaction {
+  padding: 4rem 0;
+}
+#interaction .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+#interaction .row div:first-child {
+  width: 40%;
+}
+
+#interaction .row div:last-child {
+  width: 20%;
+}
+#interaction div {
+  text-align: left;
+  font: normal normal 600 16px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#interaction img {
+  box-shadow: 5px 10px 15px #00000029;
+  border: 1px solid #707070;
+  border-radius: 222px;
+  opacity: 1;
+}
+
+#diet-chart {
+  padding: 4rem 0;
+}
+#diet-chart .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+#diet-chart .row div:first-child {
+  width: 60%;
+}
+
+#diet-chart .row div:last-child {
+  width: 40%;
+}
+#diet-chart div {
+  text-align: left;
+  font: normal normal 600 16px/24px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+  text-transform: capitalize;
+  opacity: 1;
+}
+#diet-chart img {
+  box-shadow: 5px 10px 15px #00000029;
+  border: 1px solid #707070;
+  border-radius: 222px;
+  opacity: 1;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .row h1 {
+  text-align: left;
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 0px 3px 6px #00000029;
+}
+footer a {
+  text-align: left;
+  font: normal normal 600 16px/20px Segoe UI;
+  letter-spacing: 0px;
+  color: #000;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  display: inline-block;
+  margin-left: 10px;
+}
+footer .copyright {
+  background: #0678ff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029;
+  opacity: 1;
+  text-align: center;
+  padding: 2rem;
+}
+.copyright .row {
+  justify-content: center;
+  text-align: left;
+  font: normal normal 400 16px/18px Segoe UI;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .row {
+    padding: 0 10px;
+  }
+  header nav .menu a.active,
+  header nav .home-menu.active {
+    padding: 10px;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header nav .menu a,
+  header nav .home-menu {
+    font: normal normal 600 18px/20px Segoe UI;
+  }
+  #landing_page #hero {
+    padding: 0 0 1rem;
+  }
+  #landing_page #hero .row {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  #diet-chart .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #landing_page #hero .row div:first-child,
+  #landing_page #hero .row div:first-child,
+  #diet-chart .row div:first-child,
+  #diet-chart .row div:last-child {
+    width: 100%;
+  }
+  #landing_page #hero .row div:first-child {
+    padding: 0 1rem;
+  }
+  #landing_page #hero h1,
+  .hero h1 {
+    text-align: left;
+    font: normal normal bold 52px/60px Segoe UI;
+    letter-spacing: 0px;
+  }
+  #landing_page #hero h2 {
+    text-align: left;
+    font: normal normal 600 25px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+  }
+  #landing_page #hero img {
+    background: transparent url("img/man-2604149_1920.png") 0% 0% no-repeat
+      padding-box;
+    box-shadow: 5px 10px 15px #00000029;
+    border-radius: 0px;
+    opacity: 1;
+  }
+}
